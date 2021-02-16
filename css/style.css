@@ -1,0 +1,381 @@
+.carousel-wrap {
+    margin: 30px auto;
+    margin-left: 0;
+    padding: 0 5%;
+    padding-left: 0;
+    width: 110%;
+    position: relative;
+}
+
+.carousel-wrap2 {
+    margin: 30px auto;
+    margin-left: 0;
+    padding: 0 5%;
+    padding-left: 0;
+    width: 110%;
+    position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+}
+
+/* end fix */
+.owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+}
+
+.owl-nav i {
+    font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+    left: -30px;
+}
+
+.owl-nav .owl-next {
+    right: -30px;
+}
+
+/*header*/
+
+.active1 {
+    color: aqua;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+#lblCartCount {
+    font-size: 12px;
+    background: #e02020;
+    color: white;
+    padding: 2px 4px;
+    vertical-align: top;
+    margin-left: -18px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.navbar-ul {
+    margin-left: 250px;
+}
+
+.button5:hover {
+    background-color: #e9485b;
+    color: white;
+}
+
+.button5 {
+    background-color: #ee6373;
+    color: white;
+    /*  border: 2px solid #555555;*/
+    border-radius: 5px;
+}
+
+.navbar-ul li {
+    margin-left: 20px;
+}
+
+
+/*Banner*/
+
+.banner {
+    background-image: url("../assets/ic_banner.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.banner-content {
+    margin-top: 280px;
+}
+
+.banner-content h2 {
+    margin-top: 10px;
+}
+
+.banner-content img {
+    margin-top: 20px;
+}
+
+.con-h3 {
+    margin-left: 40px;
+}
+
+/*Banner ke neeche*/
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    height: 47px;
+    padding: 10px;
+    background: #ee5578;
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+form.example button:hover {
+    background: #e9485b;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*fonts*/
+
+@font-face {
+    font-family: bold-campton;
+    src: url(../fonts/Campton-BoldDEMO.otf);
+}
+
+.bold {
+    font-family: bold-campton;
+}
+
+@font-face {
+    font-family: light-campton;
+    src: url(../fonts/Campton-LightDEMO.otf);
+}
+
+.light {
+    font-family: light-campton;
+}
+
+.font-content2 p {
+    font-family: light-campton;
+}
+
+.font-content2 h5 {
+    font-family: bold-campton;
+}
+
+/*Content 2*/
+
+.card {
+    border-radius: 15px;
+    margin-left: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+
+.btn{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.dropdown-menu{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.dropdown-menu:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+
+.card-mine{
+    width: 12rem;
+}
+.card-text {
+    font-size: 15px;
+}
+
+.card-text2 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.second-cards {
+    margin-top: 40px;
+}
+
+
+/*footer*/
+.col-mine {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.privacy {
+    margin-left: 55px;
+}
+
+.dropdown-item:hover{
+    background-color: #ee5578;
+    color: white;
+}
+/*Media Queries*/
+
+@media screen and (max-width: 767px) {
+    .banner {
+        height: 200px;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+    .img-logo {
+        width: 70%;
+    }
+
+    .banner-content {
+        margin-top: 90px;
+    }
+
+    .banner-content h1 {
+        font-size: 20px;
+    }
+
+    .banner-content h2 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .con-h3 {
+        margin-left: 20px;
+    }
+
+    .con-img {
+        width: 40%;
+    }
+
+    .banner-content img {
+        margin-top: 10px;
+    }
+
+    .navbar-ul {
+        margin-left: 10px;
+    }
+
+    .navbar-ul li {
+        margin-left: 0;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    form.example input[type=text] {
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    form.example button {
+        width: 30%;
+        height: 47px;
+        font-size: 12px;
+    }
+
+    .dropdown {
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .carousel-wrap {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .carousel-wrap2 {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .card {
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+    .second-cards {
+        margin-top: 0;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin-left: 12px;
+    }
+
+    .col-mine {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .my-p p {
+        display: flex !important;
+    }
+
+    .my-p img {
+        margin-right: 10px;
+    }
+
+    .privacy {
+        margin-left: 25px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .copyright{
+        font-size: 14px;
+        text-align: center;
+    }
+    .card-mine{
+        width: 15rem;
+    }
+}
+
